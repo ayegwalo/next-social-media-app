@@ -1,4 +1,4 @@
-import { auth, clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
+import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 
 {/* Protecting the settings route*/}
 const isProtectedRoute = createRouteMatcher(["/settings(.*)"])
